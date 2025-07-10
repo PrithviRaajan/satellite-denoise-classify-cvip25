@@ -62,11 +62,16 @@ Place the downloaded data into the corresponding folders.
 
 ConvEA-ViT outperforms baseline CNNs (ResNet, DenseNet) and matches performance of advanced transformers like ViT and SwinT, with fewer parameters.
 
----
-
 ## Results
 
 ![image](https://github.com/user-attachments/assets/6fd28bc8-9de7-441e-9c73-2b83a4ba0441)
 
 Each triplet includes (top to bottom): the original cloudy image, the corresponding denoised image, and the ground truth reference.
 
+---
+
+## License
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+- This project is licensed under the **MIT License**.
+- You are free to use, modify, and distribute the code with proper attribution.
+- See the [`LICENSE`](LICENSE) file for full details.
