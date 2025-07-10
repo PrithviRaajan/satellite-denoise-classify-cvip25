@@ -30,13 +30,19 @@ Place the downloaded data into the corresponding folders.
 
 ## Architecture Overview
 
+![image](https://github.com/user-attachments/assets/c99bf8ad-4ba6-4567-9937-5a708650b497)
+
 ### Stage 1: SE-DeCloud
+
+![image](https://github.com/user-attachments/assets/21f316de-bc14-461d-b657-3fbb84921233)
 
 - U-Net with Squeeze-and-Excitation (SE) blocks
 - Sinusoidal timestep embeddings (inspired by DDPMs)
 - Trained on RICE1 → Fine-tuned on EuroSAT with synthetic clouds (Perlin noise)
 
 ### Stage 2: ConvEA-ViT
+
+![image](https://github.com/user-attachments/assets/bed9e971-91f5-4e8e-bba0-fadda0ec8a9b)
 
 - Sobel edge maps are fused via convolution
 - Vision Transformer attends to both edge-aware and global semantic features
@@ -58,14 +64,9 @@ ConvEA-ViT outperforms baseline CNNs (ResNet, DenseNet) and matches performance 
 
 ---
 
+## Results
 
-## Contributors
+![image](https://github.com/user-attachments/assets/6fd28bc8-9de7-441e-9c73-2b83a4ba0441)
 
-- Prithviraajan Senthilkumar  
-- Hrishikesh Virupakshi
+Each triplet includes (top to bottom): the original cloudy image, the corresponding denoised image, and the ground truth reference.
 
----
-
-## License
-
-- This project is licensed under the **MIT License**.
