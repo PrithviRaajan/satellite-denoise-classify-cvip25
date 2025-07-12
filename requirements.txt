@@ -1,0 +1,10 @@
+torch>=1.13.0
+torchvision>=0.14.0
+timm>=0.6.5
+matplotlib>=3.5.0
+scikit-learn>=1.1.0
+tqdm>=4.64.0
+numpy>=1.21.0
+Pillow>=9.0.0
+torchmetrics>=1.0.0
+perlin-noise>=1.12
