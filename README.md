@@ -28,6 +28,19 @@ Place the downloaded data into the corresponding folders.
 
 ---
 
+## ⚙️ Setup Instructions
+
+To install all dependencies required for this project, use the provided `requirements.txt` file.
+
+### 🔧 Installation with pip
+
+```bash
+pip install -r requirements.txt
+
+```
+
+---
+
 ## Architecture Overview
 
 ![image](https://github.com/user-attachments/assets/c99bf8ad-4ba6-4567-9937-5a708650b497)
